@@ -12,7 +12,7 @@ import re
 from ete3 import Tree, TreeStyle
 
 IN_FILE  = "bac120.sp_labels.tree"
-OUT_FILE = "bac120.genus_only_fixed.tree"
+OUT_FILE = "bac120.species_collapsed.tree"
 
 
 num_prefix_re = re.compile(r"^\s*\d+(?:\.\d+)?:\s*(.+)$")
