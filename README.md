@@ -1,8 +1,8 @@
 # Collapse_GTDB_Phylotree
-Collapse GTDB bacterial phylogenetic tree using ETE3 package
+Collapse GTDB bacterial phylogenetic tree using ETE3 package.
 
 This script processes a GTDB phylogenetic tree and collapses it to the genus level using the ETE3 toolkit.
-This project depends on ETE3 (GPLv3). Please install it separately.
+This project depends on ETE3. Please install it separately.
 
 It removes species-level nodes, normalizes node labels, and outputs a cleaned Newick tree that preserves higher taxonomic hierarchy (family, order, class, phylum, domain).
 
