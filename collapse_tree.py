@@ -11,9 +11,6 @@
 import re
 from ete3 import Tree, TreeStyle
 
-import re
-from ete3 import Tree, TreeStyle
-
 IN_FILE  = "bac120.sp_labels.tree"
 OUT_FILE = "bac120.genus_only_fixed.tree"
 
